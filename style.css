@@ -1,4 +1,6 @@
 p {
   color: red;
   display: block;
-  margin: auto; }
+  margin: auto;
+  text-transform: uppercase;
+  padding: right; }

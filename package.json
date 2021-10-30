@@ -1,16 +1,23 @@
 {
-  "name": "clone",
+  "name": "practice_web",
   "version": "1.0.0",
   "description": "",
-  "main": "para.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "node-sass": "node-sass",
-    "sass": "node-sass styles/main.scss ./style.css"
+    "sass" : "node-sass -wr styles/main.scss ./style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Trevi-Lime/practice_web.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Trevi-Lime/practice_web/issues"
+  },
+  "homepage": "https://github.com/Trevi-Lime/practice_web#readme",
   "dependencies": {
     "node-sass": "^6.0.1"
   }
